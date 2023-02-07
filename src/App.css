@@ -1,0 +1,102 @@
+body{
+  font-family: 'Martian Mono', monospace;
+}
+.navbar{
+  background-color: #fbcc04;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height:15vh;
+}
+.navbar-img{
+  width:50px;
+  height:55px;
+}
+.create-area{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.keep-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input1{
+  border: none;
+  width:400px;
+  height:50px;
+  margin:10px;
+
+}
+.input2{
+  width: 315px;
+  height: 119px;
+  border: none;
+  margin:10px;
+}
+.keep-form{
+  margin:20px;
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius:20px;
+}
+.keep-button{
+  background-color: #fbbc04;
+  color:white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition-duration: 0.3s ;
+  margin: 20px;
+  color:black;
+  font-size: 2rem;
+}
+.keep-button:hover{
+  color:white;
+  background-color: black;
+  cursor: pointer;
+}
+.notes{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding:3rem;
+  flex-wrap: wrap;
+  width:auto;
+  height:auto;
+}
+.note{
+  margin:20px;
+  padding:20px;
+  width: auto;
+  height: auto;
+  box-shadow: 7px 7px 7px 7px gray;
+  border-radius: 10px;
+}
+.note-head{
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+.note-content{
+  font-size: 0.6rem;
+}
+.footer{
+  text-align: center;
+}
+nav a.active{
+  font-weight: bold;
+  color:black;
+}
+.navlinks{
+  padding:5%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color:white;
+  transition-duration: 0.3s;
+}
+.navlinks:hover{
+  color:black;
+
+}
